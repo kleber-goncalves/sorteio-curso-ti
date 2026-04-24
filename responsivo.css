@@ -1,4 +1,14 @@
 @media (max-width: 1024px) {
+    .botao-criador {
+        top: 12px;
+        left: 12px;
+        padding: 8px 14px;
+    }
+
+    .modal-criador {
+        width: min(100%, 420px);
+    }
+
     .cabecalho {
         padding-top: 8px;
     }
@@ -98,6 +108,35 @@
     .dica {
         font-size: 14px;
     }
+
+    .modo-sorteio__titulo {
+        font-size: 10px;
+    }
+
+    .seletor-modo-switch {
+        width: min(240px, 100%);
+    }
+
+    .seletor-modo-switch__texto {
+        font-size: 11px;
+        letter-spacing: 0.04em;
+    }
+
+    .modo-sorteio__ajuda {
+        font-size: 10px;
+    }
+
+    .modo-sorteio {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "titulo",
+            "seletor" "ajuda";
+        justify-items: center;
+    }
+
+    .modo-sorteio__ajuda {
+        text-align: start;
+    }
 }
 
 @media (max-width: 480px) {
@@ -178,6 +217,18 @@
         margin-top: 2px;
         font-size: 12px;
     }
+
+    .seletor-modo-switch {
+        width: min(240px, 100%);
+    }
+
+    .seletor-modo-switch__texto {
+        font-size: 11px;
+    }
+
+    .modo-sorteio__ajuda {
+        font-size: 9px;
+    }
 }
 
 @media (max-height: 760px) {
@@ -245,6 +296,14 @@
     .dica {
         margin-top: 2px;
         font-size: 12px;
+    }
+
+    .seletor-modo-switch__texto {
+        font-size: 11px;
+    }
+
+    .modo-sorteio__ajuda {
+        font-size: 9px;
     }
 }
 
