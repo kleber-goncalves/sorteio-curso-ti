@@ -1,5 +1,11 @@
 # 🎲 Sorteio do Mario - Roleta Interativa
 
+<div align="center">
+
+![Preview do Site](preview-fd.png)
+
+</div>
+
 ![Mario Lottery](https://img.shields.io/badge/Status-Concluído-brightgreen) ![Licença](https://img.shields.io/badge/Licença-MIT-blue) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 Um projeto de estudo criativo: uma roleta de sorteio de números com o tema icônico do Mario Bros! Desenvolvido para demonstrar conceitos de desenvolvimento web front-end, incluindo responsividade, animações CSS e interatividade JavaScript.
