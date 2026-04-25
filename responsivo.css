@@ -297,6 +297,18 @@
     }
 }
 
+@media (max-width: 400px) {
+    .botao-criador {
+        padding: 2px;
+    }
+
+    .botao-criador__icone::before {
+        width: 16px;
+        height: 1.5px;
+        box-shadow: 0 -4px 0 #fff, 0 4px 0 #fff;
+    }
+}
+
 @media (max-height: 760px) {
     .nuvem--superior-esquerda,
     .nuvem--inferior-esquerda,
