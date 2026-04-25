@@ -38,6 +38,39 @@
     .botao__texto {
         font-size: clamp(18px, 2.4vh, 28px);
     }
+
+
+    
+    .botao-criador {
+        top: 12px;
+        left: 12px;
+        right: auto;
+        padding: 10px;
+    }
+
+    .botao-criador__texto {
+        display: none;
+    }
+
+    .botao-criador__icone {
+        position: relative;
+        color: transparent;
+    }
+
+    .botao-criador__icone::before {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 -5px 0 #fff, 0 5px 0 #fff;
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -137,12 +170,45 @@
     .modo-sorteio__ajuda {
         text-align: start;
     }
+
+    .botao-criador {
+        top: 12px;
+        left: 12px;
+        right: auto;
+        padding: 10px;
+    }
+
+    .botao-criador__texto {
+        display: none;
+    }
+
+    .botao-criador__icone {
+        position: relative;
+        color: transparent;
+    }
+
+    .botao-criador__icone::before {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 -5px 0 #fff, 0 5px 0 #fff;
+    }
 }
 
 @media (max-width: 480px) {
     .decoracao--moeda,
     .decoracao--cogumelo,
     .decoracao--estrela {
+        display: none;
+    }
+
+    .nuvem--superior-esquerda {
         display: none;
     }
 
