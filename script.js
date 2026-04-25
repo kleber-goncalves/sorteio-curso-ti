@@ -316,7 +316,7 @@
         });
     }
 
-    // Estado inicial (padrao: manual, toggle desligado)
+    // vai começar como (padrao: manual, toggle desligado)
     definirModoSorteio("manual");
 
     function validarEntradas() {
